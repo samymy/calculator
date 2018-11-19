@@ -1,0 +1,30 @@
+From 0a46fef50a8ec9309cc1c82630d8663011b91a4f Mon Sep 17 00:00:00 2001
+From: Vadym Dubinkin <dubinkinvadim94@gmail.com>
+Date: Mon, 19 Nov 2018 14:00:15 +0200
+Subject: [PATCH] My changes
+
+Signed-off-by: Vadym Dubinkin <dubinkinvadim94@gmail.com>
+---
+ calculator.cpp | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+diff --git a/calculator.cpp b/calculator.cpp
+index 1b0d1e3..2d5e58a 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -2,11 +2,7 @@
+ 
+ int Calculator::Add (double a, double b)
+ {
+-<<<<<<< HEAD
+-    return a + b;
+-=======
+-	return a + b + 0.5;
+->>>>>>> 4ad40a3... fix truncation error
++    return a + b + 0.5;
+ }
+ 
+ int Calculator::Sub (double a, double b)
+-- 
+2.7.4
+
